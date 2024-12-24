@@ -7,9 +7,9 @@ import arabic_reshaper
 pygame.init()
 
 # Dimensions of the screen
-WIDTH, HEIGHT = 1000, 600  # הגדלנו את הרוחב כדי להתאים לשני טורים
+WIDTH, HEIGHT = 1000, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("לוחמה מבוססת בינה מלאכותית: מכבים נגד רומאים")
+pygame.display.set_caption("לוחמה מבוססת סוכנים: מכבים נגד רומאים")
 
 # Fonts (יש לוודא שהגופן תומך בעברית)
 # מומלץ להשתמש בגופן שתומך בעברית כמו "Arial", "David", "FrankRuehl" וכו'
@@ -43,7 +43,7 @@ def render_text(text, font, color):
 
 class AgenticWarrior:
     """
-    מדגים "בינה מלאכותית אייג'נטית" במסגרת לוחם:
+    מדגים "סוכנים אייג'נטיים" במסגרת לוחם:
       1) תופס את הסביבה ומצב היריב
       2) מחליט פעולה הבאה
       3) מבצע את הפעולה
